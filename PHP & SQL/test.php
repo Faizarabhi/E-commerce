@@ -2,17 +2,17 @@
 function devOps() {
     
     for($i=1;$i<=100;$i++ ){
-        if($i%3 == 0){
-            echo "Dev";
+        if(($i%3 == 0) && ($i%5== 0)){
+            echo "Dev "."</br>";
+        }
+        elseif($i%3== 0){
+            echo "Ops"."</br>";
         }
         elseif($i%5== 0){
-            echo "Ops";
-        }
-        elseif(($i%3 == 0) && ($i%5 == 0)){
-            echo "DevOps";
+            echo "DevOps "."</br>";
         }
         else {
-            echo $i;
+            echo $i . "</br>";
         }
     }
 
@@ -30,6 +30,5 @@ function isPrime($x){
     }
     return $c == 2 ? true : false;
 }
-
 echo isPrime(73) ? 'Prime' : 'Composite';
 ?>
