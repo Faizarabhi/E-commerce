@@ -30,9 +30,3 @@ devOps();
  }
  echo isPrime(73) ? 'Prime' : 'Composite';
 ?>
-
-2022-12-15 23:17:54:513 +0100 - [localhost]: Saving to Cloud: Started
-2022-12-15 23:17:54:532 +0100 - [localhost]: Compressing document root folder…: Done
-2022-12-15 23:17:54:538 +0100 - [localhost]: Creating archive…: Done
-2022-12-15 23:17:54:540 +0100 - [localhost]: Moving data to desktop…: Done
-2022-12-15 23:17:54:540 +0100 - [localhost]: Saving to Cloud: Finished
